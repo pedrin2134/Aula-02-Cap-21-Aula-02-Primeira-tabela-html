@@ -14,19 +14,24 @@
         }
 
         table {
-            width: 600px;/* Largura da colunas */
+            width: 500px;/* Largura da colunas */
            
             border-collapse: collapse; /* Para unir as linhas entre as celulas */
+        }
 
-        }
         tr.linha {
-            background-color: gray;
+            background-color: rgb(215, 215, 215); /*cor da coluna tr*/
         }
+
         td, th {
-            border: 1px solid black;
-            padding: 8px;
+            border: 1px solid rgb(0, 0, 0); /*borda da tabela e espaçamento*/
+            padding: 10px;
         }
-       
+
+       td.dado {
+        background-color: darkgoldenrod; /*cor da coluna td*/
+       }
+
     </style>
 
 </head>
@@ -43,9 +48,21 @@
     </tr>
     <tr>
         <td>Camiseta</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Vestuário</td>
+        <td>49,90</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Notebook</td>
+        <td>Eletrônicos</td>
+        <td>3.500,00</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Café Gourmet</td>
+        <td>Alimentos</td>
+        <td>29,90</td>
+        <td>15</td>
     </tr>
     </Table>
 </body>
